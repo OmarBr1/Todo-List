@@ -1,0 +1,38 @@
+:root {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; 
+  color: #333; 
+}
+
+html, body {
+  height: 100%; 
+  margin: 0; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(35, 19, 91, 0.755);
+  color: #333;
+}
+
+h1.title {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+
+.main-content {
+  flex: 1; 
+}
+
+
+.footer {
+  background-color: #333;
+  color: #f9f8f7;
+  padding: 20px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  width: 100%; 
+}
